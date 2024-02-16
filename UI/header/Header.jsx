@@ -1,7 +1,7 @@
-import { FaPlus } from "react-icons/fa6"
 import UserIcon from "./user/UserIcon";
 import Branding from "./Branding";
 import SearchInput from "./search/SearchInput";
+import CreatePostButton from "./CreatePostButton";
 
 export default function Header() {
   return (
@@ -17,16 +17,7 @@ export default function Header() {
             {/* Search */}
             <SearchInput />
 
-            <button className="btn-primary !px-3 flex items-center justify-center ml-4 ">
-              <span className="p-[2px] border border-lite-2 text-lite-2 text-xs mr-2 rounded-sm">
-                <FaPlus />
-              </span>
-
-              <span>
-                Create
-              </span>
-
-            </button>
+            <CreatePostButton />
 
             <UserIcon />
 

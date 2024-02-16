@@ -20,6 +20,8 @@ module.exports = {
         "lite-2": "#f4f4f4",
         "body-overlay": "#f0f2f5",
         "hover-overlay-1": "#efefefd1",
+        "hover-overlay-2": "#f2f2f2",
+        "hover-overlay-3": "#e6e6e6",
         "gray-shade-1": "#626262"
       },
       fontSize: {
@@ -41,10 +43,14 @@ module.exports = {
         "extrabold": "700"
       },
       height: {
-        "header-height": "4rem"
+        "header-height": "4rem",
+        "15": "3.75rem"
       },
       zIndex: {
         "1": "1",
+      },
+      boxShadow: {
+        "div-overlay": "0 12px 28px 0 #00000033,0 2px 4px 0 #0000001a,inset 0 0 0 1px #ffffff80"
       }
     },
   },

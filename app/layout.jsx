@@ -1,4 +1,5 @@
 import "@/styles/globals.css"
+import CreatePost from "@/UI/components/CreatePost";
 import Header from "@/UI/header/Header";
 
 export const metadata = {
@@ -23,8 +24,6 @@ export default function RootLayout({ children }) {
                     </div>
                     {children}
                 </div>
-
-
 
             </body>
         </html>
